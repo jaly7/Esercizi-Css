@@ -1,5 +1,21 @@
+h1 + p::first-letter{
+    float: left;
+    color: darkred;
+    border: 3px ridge darkgoldenrod;
+    padding: 16px;
+    background-color: gold;
+    margin: 8px;
+}
+blockquote::before{
+	content: open-quote;
+	font-size: 2rem;
+}
+blockquote::after{
+	content: close-quote;
+	font-size: 2rem;
+}
 
-blockquote {
+blockquote{
 	background-color: rgba(0, 0, 0, .12);
 	padding: 8px;
 }
@@ -7,4 +23,12 @@ blockquote {
 a {
 	color: darkred;
 	text-decoration: none;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:focus{
+	color: blue;
 }
