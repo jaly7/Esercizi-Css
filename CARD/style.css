@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f0f0; /* Cambia il colore di sfondo del corpo */
+    font-family: Arial, sans-serif; /* Imposta il tipo di carattere predefinito */
+}
+
+.card {
+    border: 1px solid black;
+    width: 330px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.card hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card main h1 {
+    margin-bottom: 20px;
+}
+
+.card footer {
+    margin-top: 20px;
+}
