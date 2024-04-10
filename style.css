@@ -6,6 +6,10 @@ blockquote {
   background-color: rgba(0, 12, 24, 0.05);
 }
 
+.content1 p {
+  border: 1px solid chartreuse;
+}
+
 a {
   border: 1px dashed red;
 }
@@ -14,25 +18,24 @@ em {
   color: darkred;
 }
 
-.link1, .link2, .link3 {
+.link1 a {
   color: inherit;
   padding: inherit;
 }
-
-.reset {
-  color: initial;
+.link2 a {
+  color: inherit;
+  padding: inherit;
 }
-
-.natural {
-  color: revert;
-  padding: revert;
+.link3 a {
+  color: unset;
+  padding: unset;
 }
 
 .variant-em {
-  background-color: greenyellow;
-  color: black;
   font-weight: bold;
   font-style: inherit;
+  color: black;
+  background-color: greenyellow;
 }
 
 ul {
