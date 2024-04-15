@@ -39,7 +39,7 @@ table > tfoot {
     color: #7f0000;
 }
 
-usare: td:nth-child(n+2)
+td:nth-child(n+2)
 {
     text-align: right;
 }
