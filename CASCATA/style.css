@@ -23,6 +23,7 @@ em {
   padding: inherit;
 }
 .link2 a {
+  all: initial;
   color: inherit;
   padding: inherit;
 }
