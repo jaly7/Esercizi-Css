@@ -32,3 +32,6 @@ a:hover{
 a:focus{
 	color: blue;
 }
+a:visited{
+	color: purple;
+}
