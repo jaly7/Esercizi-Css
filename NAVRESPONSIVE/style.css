@@ -1,0 +1,24 @@
+.hambuer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    cursor: pointer;
+
+}
+
+.hambuer-menu div{
+    width: 30px;
+    height: 3px;
+    background: #fff;
+}
+
+@media screen and (max-width: 768px){
+    ul li,
+    ul .dropdown,
+    .search-wrapper {
+        display: none;
+    }
+    .hambuger-menu {
+        display: flex;
+    }  
+}
