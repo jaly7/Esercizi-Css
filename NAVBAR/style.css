@@ -1,7 +1,0 @@
-button:hover {
-    background-color: #00ff00; /* Sfondo verde al passaggio del mouse */
-}
-
-button:hover a {
-    color: #ffffff; /* Testo bianco al passaggio del mouse */
-}
