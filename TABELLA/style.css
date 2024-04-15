@@ -39,12 +39,9 @@ table > tfoot {
     color: #7f0000;
 }
 
-table > tbody > tr > td:nth-child(2),
-table > tbody > tr > td:nth-child(3),
-table > tfoot > tr > td:nth-child(2),
-table > tfoot > tr > td:nth-child(3),
+usare: td:nth-child(n+2)
 {
-    text-align: right
+    text-align: right;
 }
 
 
